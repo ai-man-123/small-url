@@ -13,7 +13,7 @@ config :small_url,
 
 # Configures the endpoint
 config :small_url, SmallUrlWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "lynxaiman"],
   secret_key_base: "+7ZINoY9iCEhw1ivei+oyD+lBef2mOQ0gYNjENoHbzUL4qyxWTqnjat4Y1FmdbA6",
   render_errors: [view: SmallUrlWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: SmallUrl.PubSub,
